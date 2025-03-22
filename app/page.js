@@ -1,4 +1,13 @@
-import {Button} from "@/components/ui/button";
-export default function Home() {
-  return <Button variant="destructive">Hello</Button>;
-}
+import React from 'react';
+import { ClerkProvider } from '@clerk/nextjs';
+import Header from '@/components/header';  
+
+const Page = () => {
+  return (
+    <ClerkProvider>
+      <Header />
+    </ClerkProvider>
+  );
+};
+
+export default Page;
