@@ -55,4 +55,4 @@ The Expense Tracker App includes the following features:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/rautela-abhiishek/wealthify.git
+https://github.com/rautela-abhiishek/wealthify.git
